@@ -1,0 +1,32 @@
+h1 {
+    font-family: Arial;
+    background-color: yellow;
+}
+
+h2 {
+    font-family: Arial;
+    background-color: yellow;
+}
+
+p {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+strong {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+em.excepcion {
+    color: black;
+}
+
+span {
+    color: blue;
+}
+
+*{margin: 20px;}

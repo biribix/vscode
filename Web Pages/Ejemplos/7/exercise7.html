@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise7.css">
+</head>
+<body>
+    <h2>Información sobre el producto</h2>
+    <form name="exercise7" action="pagina.php" method="post">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            Nombre <br> <input type="text" size="30"> <br> <br>
+            Descripción <br>
+            <textarea name="descripcion" rows="4" cols="35"></textarea> <br> <br>
+            Foto <input type="file" name="foto"> <br> <br>
+            <input type="checkbox" name="visitas"> Añadir contadore de visitas
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <table>
+                <tr>
+                    <th>
+                        Precio <input type="number" name="precio"> €
+                    </th>
+                    <th>
+                        Impuestos <select name="impuestos">
+                            <option value="4%">4%</option>
+                            <option value="7%">7%</option>
+                            <option value="16%">16%</option>
+                            <option value="25%">25%</option>
+                        </select> <br> <br>
+                    </th>
+                </tr>
+            </table>
+            Promoción <br>
+            <input type="radio" name="Ninguno"> Ninguno <br>
+            <input type="radio" name="Transporte gratuito"> Transporte gratuito <br>
+            <input type="radio" name="Descuento 5%"> Descuento 5%
+        </fieldset>
+</body>
+</html>
