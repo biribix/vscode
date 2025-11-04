@@ -7,8 +7,10 @@ pi = 3.1416
 # Número de errores cometidos
 error = 0
 
+continuar = True
+
 # Menú de opciones
-menu ="------------------------------------------------------------------------------\n" \
+menu = "------------------------------------------------------------------------------\n" \
     "                                 CALCULADORA\n" \
     "------------------------------------------------------------------------------\n" \
     "1. Cálculo del perimetro de una circunferencia\n" \
@@ -17,62 +19,32 @@ menu ="-------------------------------------------------------------------------
     "4. Salir\n" \
     "------------------------------------------------------------------------------"
 
-print(menu)
-opcion = int(input("Elige una de estas opciones (1-4): "))
-print()
+while continuar:
+    print(menu)
+    opcion = int(input("Elige una de estas opciones (1-4): "))
+    print()
 
-# Mientras la opcion elegida sea una entre el 1 y el 4, 
-while ( opcion == 1,2,3,4 ):
+    if ( opcion == 1 ):
+        radio = float(input("Introduzca el valor del radio: "))
+        perimetro = 2 * pi * radio                                       # Operación para calcular el perimetro de una circunferencia: P=2*π*r
+        print("El perimetro de la circunferencia es:",perimetro,"cm\n")  # Resultado
+            
 
-    # Opción 1: Cálculo del perimetro de una circunferencia
-    if opcion == 1:
-        print("------------------------------------------------------------------------------\n"
-            "Cálculo del perímetro de una circunferencia\n"
-            "------------------------------------------------------------------------------")
-        radio = float(input("Introduzca el valor del radio: "))         # Valor del radio del circulo definido por el usuario
-        perimetro = 2 * pi * radio                                      # Operación para calcular el perimetro de una circunferencia: P=2*π*r
-        print("El perimetro de la circunferencia es:",perimetro,"cm\n"  # Resultado
-            "------------------------------------------------------------------------------\n")
-        print(menu)
-        opcion = int(input("Elige una de estas opciones (1-4): "))
-        print()
+    elif ( opcion == 2 ):
+        radio = float(input("Introduzca el valor del radio: "))
+        area = radio ** 2 * pi                                           # Operación para calcular el area de un circulo: A=r²*π
+        print("El area de la circunferencia es:",area,"cm²\n")           # Resultado
 
-    # Opción 2: Cálculo del area de un circulo
-    elif opcion == 2:
-        print("------------------------------------------------------------------------------\n"
-            "Cálculo del area de un circulo\n"
-            "------------------------------------------------------------------------------")
-        radio = float(input("Introduzca el valor del radio: "))         # Valor del radio del circulo definido por el usuario
-        area = radio ** 2 * pi                                          # Operación para calcular el area de un circulo: A=r²*π
-        print("El area de la circunferencia es:",area,"cm²\n"           # Resultado
-            "------------------------------------------------------------------------------\n")
-        print(menu)
-        opcion = int(input("Elige una de estas opciones (1-4): "))
-        print()
+    elif ( opcion == 3 ):
+        radio = float(input("Introduzca el valor del radio: "))
+        volumen = (4 / 3) * pi * radio ** 3                              # Operación para calcular el volumen de una esfera: V=(4/3)*π*r³
+        print("El volumen de la esfera es:",volumen,"cm³\n")             # Resultado
 
-    # Opción 3: Cálculo del volumen de una esfera
-    elif opcion == 3:
-        print("------------------------------------------------------------------------------\n"
-            "Cálculo del volumen de una esfera\n"
-            "------------------------------------------------------------------------------")
-        radio = float(input("Introduzca el valor del radio: "))         # Valor del radio del circulo definido por el usuario
-        volumen = (4 / 3) * pi * radio ** 3                             # Operación para calcular el volumen de una esfera: V=(4/3)*π*r³
-        print("El volumen de la esfera es:",volumen,"cm³\n"             # Resultado
-            "------------------------------------------------------------------------------\n")
-        print(menu)
-        opcion = int(input("Elige una de estas opciones (1-4): "))
-        print()
+    elif ( opcion == 4 ):
+        continuar = False
 
-    # Opción 4: Salir
-    elif opcion == 4:
-        break
-    
-    # Si la opcion elegida no es una entre el 1 y el 4, da error y se vuelve a iniciar el programa
     else:
         error = error + 1
-        print("* ERROR",error,": Opcion no valida\n")                   # Mensaje de error
-        print(menu)
-        opcion = int(input("Elige una de estas opciones (1-4): "))
-        print()
+        print("ERROR",error,": Opción no valida, elige una opción entre el 1 y el 4.\n")
 
 print("FIN DEL PROGRAMA\n")
