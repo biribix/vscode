@@ -1,12 +1,29 @@
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+    font-family: Arial;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #header {
-  
+    text-align: justify;
+    color: white;
+    padding: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    background-image: url(header_background.jpg);
+}
+
+p {
+    font-size: 15px;
 }
 
 #content {
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 13px;
     
+}
+
+h1 {
+    font-size: large;
 }

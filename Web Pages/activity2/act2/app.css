@@ -16,15 +16,21 @@ H4 {
 }
 
 /* 4 - Only in the "worst" paragraph, every list item into unorder list must have italic, bold and violet font color */
-#worst li {
+#worst {
     font-style: italic;
     font-weight: bold;
     color: violet;
 }
 
 /* 5 - "best" class with underline text */
-.best li {
+li.best {
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 /* 6 - The link (<a>) in "favourite" paragraph into red color, italic font style and a big font size (add a similar size as the image)*/
+#favourite a {
+    color: red;
+    font-style: italic;
+    font-size: 2em;
+}
