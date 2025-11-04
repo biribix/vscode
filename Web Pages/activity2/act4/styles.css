@@ -4,8 +4,9 @@ body {
 }
 
 #header {
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   font-size: 100px;
+  text-align: left;
   background-image: url(starfield-file.png);
   background-size: 100%;
 }
