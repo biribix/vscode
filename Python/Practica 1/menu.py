@@ -27,18 +27,18 @@ while continuar:
 
     if ( opcion == 1 ):
         radio = float(input("Introduzca el valor del radio: "))
-        perimetro = 2 * pi * radio                                       # Operación para calcular el perimetro de una circunferencia: P=2*π*r
+        perimetro = 2 * 3.1416 * radio                                   # Operación para calcular el perimetro de una circunferencia: P=2*π*r
         print("El perimetro de la circunferencia es:",perimetro,"cm\n")  # Resultado
             
 
     elif ( opcion == 2 ):
         radio = float(input("Introduzca el valor del radio: "))
-        area = radio ** 2 * pi                                           # Operación para calcular el area de un circulo: A=r²*π
+        area = radio ** 2 * 3.1416                                       # Operación para calcular el area de un circulo: A=r²*π
         print("El area de la circunferencia es:",area,"cm²\n")           # Resultado
 
     elif ( opcion == 3 ):
         radio = float(input("Introduzca el valor del radio: "))
-        volumen = (4 / 3) * pi * radio ** 3                              # Operación para calcular el volumen de una esfera: V=(4/3)*π*r³
+        volumen = (4 / 3) * 3.1416 * radio ** 3                          # Operación para calcular el volumen de una esfera: V=(4/3)*π*r³
         print("El volumen de la esfera es:",volumen,"cm³\n")             # Resultado
 
     elif ( opcion == 4 ):
