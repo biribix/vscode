@@ -7,6 +7,7 @@ pi = 3.1416
 # Número de errores cometidos
 error = 0
 
+# Activación del bucle
 continuar = True
 
 # Menú de opciones
