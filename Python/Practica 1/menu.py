@@ -27,7 +27,6 @@ while continuar:
         perimetro = 2 * 3.1416 * radio                                   # Operación para calcular el perimetro de una circunferencia: P=2*π*r
         print("El perimetro de la circunferencia es:",perimetro,"cm\n")  # Resultado
             
-
     elif ( opcion == 2 ):
         radio = float(input("Introduzca el valor del radio: "))
         area = radio ** 2 * 3.1416                                       # Operación para calcular el area de un circulo: A=r²*π
