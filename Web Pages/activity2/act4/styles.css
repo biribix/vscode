@@ -1,6 +1,9 @@
 body {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 2%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 #header {
@@ -13,6 +16,33 @@ body {
   background-image: url(starfield-file.png);
 }
 
+table.cartel {
+  margin: 5%;
+  text-align: left;
+}
+
+.nobold {
+  font-weight: lighter;
+}
+
+ol li {
+  font-weight: lighter;
+}
+
+ul.jugadores {
+  font-weight: lighter;
+}
+
+h2 {
+  margin-left: 5%;
+}
+
+table.ficha {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 img {
   position: ;
 }
@@ -20,7 +50,6 @@ img {
 #content {
     
 }
-
 
 @keyframes glow {
   from {
