@@ -1,9 +1,6 @@
 # Programa de calculo de circunferencias con el radio
 # Hecho por David Abad Martínez de 2ºSMR A
 
-# Número pi
-pi = 3.1416
-
 # Número de errores cometidos
 error = 0
 
