@@ -5,10 +5,16 @@ body {
 
 #header {
   color: white;
-  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 250%;
+  padding: 10%;
   text-align: left;
   background-image: url(starfield-file.png);
-  background-size: 100%;
+}
+
+img {
+  position: ;
 }
 
 #content {

@@ -4,7 +4,7 @@
 # Número de errores cometidos
 error = 0
 
-# Activación del bucle
+# Activación del bucle: True / False
 continuar = True
 
 # Menú de opciones
