@@ -1,6 +1,6 @@
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     box-shadow: 0px 0px 20px;
     border-radius: 10px;
 }
@@ -13,15 +13,16 @@ body {
   color: white;
   display: flex;
   box-sizing: border-box;
-  align-items: center;
-  padding-left: 20px;
   position: relative;
   font-size: xx-large;
 }
 
 #header img {
     width: 40px;
-    
+    height: 40px;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    padding-left: 15px;
 }
 
 #content {
@@ -30,6 +31,16 @@ body {
 
 #content form fieldset.personales {
     font-weight: bold;
+}
+
+.participar {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(53, 86, 114);
+    color: white;
+    font-size:medium;
 }
 
 #content form fieldset legend.excepcion {

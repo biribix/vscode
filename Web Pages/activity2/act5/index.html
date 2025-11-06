@@ -11,13 +11,13 @@
 <body>
     <!-- Header Content-->
     <div id="header">
-        <img src="flecha.png">
+        <img src="flecha.png"><br>
         Starfield
     </div>
 
     <!-- Content -->
     <div id="content">
-      <strong>Rellena los siguientes datos para participar en el sorteo:</strong>
+      <strong>Rellena los siguientes datos para participar en el sorteo:</strong><br>
 
         <form name="datos" action="pagina.php" method="post">
             <fieldset class="personales">
@@ -29,23 +29,23 @@
             </fieldset>
             <fieldset>
                 <legend>Mas datos</legend>
-                        
-                Más datos
+                
+                Formato del juego<br><input type="radio" name="" id="">Digital<input type="radio" name="" id="">Físico<br><br>
+                
+                Género favorito<br>
+                <select name="GeneroFav" id="">
+                    <option value="RPG">RPG</option>
+                    <option value="Deportes">Deportes</option>
+                    <option value="FPS">FPS</option>
+                    <option value="Simulación">Simulación</option>
+                    <option value="Aventuras">Aventuras</option>
+                </select><br><br>
+                    
+                Observaciones<br><textarea name="Observaciones" rows="5px" cols="45px" id=""></textarea><br><br>
 
-                Formato del juego
-                Digital
-                Físico
-          
-                Género favorito
-                RPG
-                Deportes
-                FPS
-                Simulación
-                Aventuras
-
-                Observaciones
-
-                Acepto los términos y condiciones: 
+                Acepto los <a href="">términos y condiciones</a>: <input type="checkbox" name="TerminosCondiciones" id=""><br><br>
+                
+                <input type="submit" value="Participar" class="participar">
             </fieldset>
         </form>
 
