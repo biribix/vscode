@@ -4,7 +4,9 @@ body {
 }
 
 #header {
-
+    background-image: url(starfield-file.png);
+    color: white;
+    font-weight: bold;
 }
 
 #content {
