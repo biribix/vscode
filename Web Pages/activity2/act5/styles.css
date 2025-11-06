@@ -29,12 +29,13 @@ body {
     padding: 20px;
 }
 
-#content   {
-    margin-bottom: 10px;
+.titulo {
+    font-weight: bold;
 }
 
 #content form fieldset.personales {
     font-weight: bold;
+    margin-top: 10px;
 }
 
 #content .participar {
