@@ -17,31 +17,37 @@
 
     <!-- Content -->
     <div id="content">
-      Rellena los siguientes datos para participar en el sorteo:
+      <strong>Rellena los siguientes datos para participar en el sorteo:</strong>
 
-      Datos personales
+        <form name="datos" action="pagina.php" method="post">
+            <fieldset class="personales">
+                <legend class="excepcion">Datos personales</legend>
+                Nombre y apellidos<br><input type="text" name="NombreApellidos" id=""><br><br>
+                Email<br><input type="email" name="Email" id=""><br><br>
+                Fecha de nacimiento<br><input type="date" name="Nacimiento" id=""><br><br>
+                Dirección, provincia y ciudad<br><input type="text" name="Direccion" id=""><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Mas datos</legend>
+                        
+                Más datos
 
-      Nombre y apellidos
-      Email
-      Fecha de nacimiento
-      Dirección, provincia y ciudad
-        
-      Más datos
-
-      Formato del juego
-      Digital
-      Físico
+                Formato del juego
+                Digital
+                Físico
           
-      Género favorito
-      RPG
-      Deportes
-      FPS
-      Simulación
-      Aventuras
+                Género favorito
+                RPG
+                Deportes
+                FPS
+                Simulación
+                Aventuras
 
-      Observaciones
+                Observaciones
 
-      Acepto los términos y condiciones: 
+                Acepto los términos y condiciones: 
+            </fieldset>
+        </form>
 
 </body>
 </html>
