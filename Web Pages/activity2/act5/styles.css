@@ -21,7 +21,7 @@ body {
     width: 40px;
     height: 40px;
     padding-bottom: 80px;
-    padding-top: 1px;
+    padding-top: 5px;
     padding-left: 15px;
 }
 
@@ -29,11 +29,15 @@ body {
     padding: 20px;
 }
 
+#content   {
+    margin-bottom: 10px;
+}
+
 #content form fieldset.personales {
     font-weight: bold;
 }
 
-.participar {
+#content .participar {
     width: 100px;
     height: 35px;
     border-radius: 10px;
