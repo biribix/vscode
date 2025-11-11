@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://img.freepik.com/vector-premium/textura-fondo-blanco-gris-moderno-abstracto-diseno-fondo-poligonal-caotico_266639-1446.jpg);
+    color: blueviolet;
+}
+
+p.excepcion {
+    color:black;
+}
+
+.uno {
+    background-color: rgb(218, 59, 59);
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.dos {
+    background-image: url(https://marketplace.canva.com/EAEKqI09MjI/1/0/1600w/canva-fondo-virtual-azul-rosa-arco%C3%ADris-gradiente-kyL4zdu4OLM.jpg);
+    border-color: black;
+    border-radius: 35px;
+    border-width: 2px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 30px;
+    color: red;
+}
