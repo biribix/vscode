@@ -20,6 +20,7 @@ p.excepcion {
 
 .dos {
     background-image: url(https://marketplace.canva.com/EAEKqI09MjI/1/0/1600w/canva-fondo-virtual-azul-rosa-arco%C3%ADris-gradiente-kyL4zdu4OLM.jpg);
+    background-size: 100%;
     border-color: black;
     border-radius: 35px;
     border-width: 2px;
