@@ -1,0 +1,17 @@
+.peliculas {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1677543050372-2ZB3B2WO3YINULKF12F8/header_3.jpg);
+    background-position: top;
+    background-size: 100%;
+    border: 10px solid green;
+    border-radius: 30px;
+    width: 590px;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+h3 {
+    color: green;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Link to styles.css-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- title -->
+    <title>Sorteo de Starfield</title>
+</head>
+<body>
+    <!-- Header Content-->
+    <div id="header">
+        <img src="flecha.png"><br>
+        Starfield
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+      <span class="titulo">Rellena los siguientes datos para participar en el sorteo:</span><br>
+
+        <form name="datos" action="pagina.php" method="post">
+            <fieldset class="personales">
+                <legend class="excepcion">Datos personales</legend>
+                Nombre y apellidos<br><input type="text" name="NombreApellidos" id=""><br><br>
+                Email<br><input type="email" name="Email" id=""><br><br>
+                Fecha de nacimiento<br><input type="date" name="Nacimiento" id=""><br><br>
+                Dirección, provincia y ciudad<br><input type="text" name="Direccion" id=""><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Mas datos</legend>
+                
+                Formato del juego<br><input type="radio" name="" id="">Digital<input type="radio" name="" id="">Físico<br><br>
+                
+                Género favorito<br>
+                <select name="GeneroFav" id="">
+                    <option value="RPG">RPG</option>
+                    <option value="Deportes">Deportes</option>
+                    <option value="FPS">FPS</option>
+                    <option value="Simulación">Simulación</option>
+                    <option value="Aventuras">Aventuras</option>
+                </select><br><br>
+                    
+                Observaciones<br><textarea name="Observaciones" rows="5px" cols="45px" id=""></textarea><br><br>
+
+                Acepto los <a href="">términos y condiciones</a>: <input type="checkbox" name="TerminosCondiciones" id=""><br><br>
+                
+                <input type="submit" value="Participar" class="participar">
+            </fieldset>
+        </form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* 1 - Only the links of the <header> section with font size 40px and background color green*/
+header a {
+    font-size: 40px;
+    color: green;
+}
+
+/* 2 - <header> inside paragraph with a font color of blue and bold style */
+header p {
+    color: blue;
+    font-weight: bold;
+}
+
+/* 3 - H4 with crossed out line */
+H4 {
+    text-decoration: line-through;
+}
+
+/* 4 - Only in the "worst" paragraph, every list item into unorder list must have italic, bold and violet font color */
+#worst {
+    font-style: italic;
+    font-weight: bold;
+    color: violet;
+}
+
+/* 5 - "best" class with underline text */
+li.best {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* 6 - The link (<a>) in "favourite" paragraph into red color, italic font style and a big font size (add a similar size as the image)*/
+#favourite a {
+    color: red;
+    font-style: italic;
+    font-size: 2em;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <a href="../act3.html">volver</a><br><br>
+    <form name="formulario" action="pagina.php" method="post">
+        <fieldset class="datos">
+            <legend>Tus Datos</legend>
+            Nombre<br><input type="text" id="nombre" name="nombre"><br><br>
+            Email</label><br><input type="email" id="email" name="email"><br><br>
+            Teléfono<br><input type="tel" id="telefono" name="telefono"><br><br>
+        </fieldset>
+        <fieldset class="direccion">
+            <legend>Dirección de entrega</legend>
+            Dirección<br><input type="text" id="direccion" name="direccion"><br><br>
+            Codigo Postal<br><textarea name="codigo_postal" id=cp""></textarea><br><br>
+            <input type="checkbox" name="" id="">Dirección principal
+        </fieldset>
+        <fieldset class="tarjeta">
+            <legend>Tarjeta de crédito</legend>
+            <fieldset class="tipo">
+                <legend>Tipo</legend>
+                <input type="radio" name="VISA" id="">VISA
+                <input type="radio" name="MasterCard" id="">MasterCard
+                <input type="radio" name="Discover" id="">Discover
+            </fieldset><br>
+            Banco<br><select name="banco" id="">
+                <option value="BBVA">BBVA</option>
+                <option value="Santander">Santander</option>
+                <option value="CaixaBank">CaixaBank</option>
+                <option value="Sabadell">Sabadell</option>
+            </select><br><br>
+            Código de seguridad:<br><input type="text" id="codigo_seguridad" name="codigo_seguridad"><br><br>
+            Numero de tarjeta:<br><input type="text" id="numero_tarjeta" name="numero_tarjeta">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
